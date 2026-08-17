@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Adelaide Olu Groups Ltd builds practical digital products designed to make everyday life simpler." />
+  <title>Adelaide Olu Groups Ltd</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #fffdf8;
+      color: #1d1d1d;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee8de;
+      background: #fffdf8;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      color: #124f3c;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 72vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(180deg, #fffdf8 0%, #f7f3ea 100%);
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: #c7922e;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.05;
+      color: #124f3c;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 19px;
+      color: #555;
+    }
+
+    .section {
+      padding: 90px 8%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 36px;
+      color: #124f3c;
+      margin-bottom: 18px;
+    }
+
+    .section-intro {
+      max-width: 720px;
+      color: #666;
+      margin-bottom: 45px;
+      font-size: 17px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 28px;
+    }
+
+    .card {
+      background: white;
+      padding: 36px;
+      border-radius: 18px;
+      border: 1px solid #eee8de;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+    }
+
+    .card-tag {
+      display: inline-block;
+      background: #f6c960;
+      color: #173f32;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    .card h3 {
+      font-size: 25px;
+      color: #124f3c;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #666;
+    }
+
+    .about {
+      background: #124f3c;
+      color: white;
+      padding: 90px 8%;
+    }
+
+    .about-inner {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 780px;
+      font-size: 18px;
+      color: #e7eee9;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .contact h2 {
+      font-size: 36px;
+      color: #124f3c;
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      color: #666;
+      margin-bottom: 24px;
+    }
+
+    .contact a {
+      display: inline-block;
+      background: #124f3c;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    footer {
+      border-top: 1px solid #eee8de;
+      padding: 35px 8%;
+      text-align: center;
+      color: #777;
+      font-size: 13px;
+      background: white;
+    }
+
+    footer p {
+      margin: 4px 0;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        padding: 20px;
+      }
+
+      nav {
+        display: none;
+      }
+
+      .section {
+        padding: 65px 22px;
+      }
+
+      .about {
+        padding: 65px 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">ADELAIDE OLU GROUPS</div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Our Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow">Adelaide Olu Groups Ltd</div>
+
+        <h1>Building useful digital products for everyday life.</h1>
+
+        <p>
+          We create thoughtful technology and consumer products designed
+          to make everyday experiences simpler, smarter and more enjoyable.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <h2 class="section-title">Our products</h2>
+
+      <p class="section-intro">
+        Adelaide Olu Groups develops and supports digital products focused
+        on food, community, convenience and everyday living.
+      </p>
+
+      <div class="products">
+
+        <div class="card">
+          <span class="card-tag">Food & Meal Planning</span>
+
+          <h3>Ting & Things</h3>
+
+          <p>
+            A personalised African and Caribbean meal-planning experience
+            helping households discover recipes, plan their week, manage
+            grocery budgets and create smarter shopping lists.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="card-tag">Grocery & Delivery</span>
+
+          <h3>At Olu's</h3>
+
+          <p>
+            A digital marketplace designed to make African and Caribbean
+            groceries easier to discover and access, connecting customers
+            with trusted local food businesses.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner">
+        <h2>About Adelaide Olu Groups</h2>
+
+        <p>
+          Adelaide Olu Groups Ltd is a UK-based company creating and
+          developing digital products that solve practical everyday problems.
+          We combine technology, research and user-centred design to build
+          services that are useful, accessible and designed around real people.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get in touch</h2>
+
+      <p>
+        For business, product or partnership enquiries, contact Adelaide Olu Groups.
+      </p>
+
+      <a href="mailto:hello@adelaideolugroups.com">
+        hello@adelaideolugroups.com
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>Adelaide Olu Groups Ltd</strong></p>
+    <p>Company No. 12770259</p>
+    <p>Registered in England & Wales</p>
+    <p>© 2026 Adelaide Olu Groups Ltd. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
